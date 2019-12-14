@@ -42,3 +42,37 @@ int main()
 }
 
 //function definitions
+void fillWith(vector <int> &a, int b)
+{
+    for( int i = 0; i < a.size(); i++)
+    {
+    a[i] = b;
+    }
+}
+
+int isPositive( int x )
+{
+  int positive = 0;
+
+  if( x > 0)
+    {
+    positive = 1;
+    return positive;
+    }
+    else
+    {
+    return positive;
+    }
+}
+
+void printVector( vector <int> c)
+{
+    for( int k = 0; k <c.size(); k++)
+    {
+        cout << c[k]<< " ";
+    }
+
+
+}
+
+
